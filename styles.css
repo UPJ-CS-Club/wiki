@@ -1,0 +1,110 @@
+/* Reset-ish */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Header */
+.site-header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Layout */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+}
+
+/* Buttons */
+button {
+    padding: 8px 14px;
+    border: 1px solid #333;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+button.secondary {
+    border-color: #999;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 100%;
+}
+
+.card a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* Image */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+}
