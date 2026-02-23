@@ -1,16 +1,17 @@
 /* Reset-ish */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
+    font-family: system-ui;
+    background-color: #262626;
+    color: #f2f2f2;
 }
 
 /* Header */
 .site-header {
-    background-color: #ffffff;
+    background-color: #003594;
     padding: 20px;
     border-bottom: 1px solid #ddd;
+    color: #f4f6fa;
 }
 
 .nav-list {
@@ -22,7 +23,8 @@ body {
 
 .nav-list a {
     text-decoration: none;
-    color: #333;
+    color: #fcba03;
+    font-weight: bold;
 }
 
 /* Layout */
@@ -31,7 +33,7 @@ main {
 }
 
 section {
-    background-color: #ffffff;
+    background-color: #333333;
     padding: 20px;
     margin-bottom: 30px;
     border: 1px solid #ddd;
@@ -47,6 +49,8 @@ button {
 
 button.secondary {
     border-color: #999;
+    background-color: #0352fc;
+    color: white;
 }
 
 /* Cards */
