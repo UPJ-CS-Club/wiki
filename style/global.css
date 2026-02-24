@@ -1,0 +1,61 @@
+:root {
+  --upj-yellow: #FCBA03;
+  --upj-blue: #003594;
+  --color-1: #262626;
+  --color-2: #f2f2f2;
+  --color-3: #101724;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  background-color: var(--color-1);
+  color: var(--color-2);
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  background-color: var(--upj-blue);
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+}
+
+#menu-btn {
+  width: 40px;
+  height:auto;
+}
+
+#club-logo {
+  margin: 0px auto;
+}
+
+#collapsable-sidebar {
+  position: fixed;
+  height: 100vh;
+  background: var(--color-3);
+  color: var(--color-2);
+  padding: 20px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-color: var(--color-2);
+  border-right: 1px solid white;
+  font-family: Bahnschrift;
+}
+
+#collapsable-sidebar a {
+  color: var(--upj-yellow);
+}
+
+#collapsable-sidebar a:hover {
+  color: #fde6a8;
+}
+
+main {
+  padding: 20px;
+}
