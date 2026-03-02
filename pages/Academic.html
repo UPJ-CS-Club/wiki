@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Academic - UPJ CS Wiki</title>
+
+    <!-- Be sure to link all scripts and style sheets here! -->
+    <link rel="stylesheet" href="../style/global.css" />
+    <link rel="stylesheet" href="../style/academic.css" />
+    <script src="../scripts/align-parts.js"></script>
+    <script src="../scripts/Academic.js"></script>
+    <link rel="icon" href="../img/club-icon.png" />
+  </head>
+  <body>
+    <header>
+      <img id="club-logo" src="../img/club-icon-small.png" alt="club logo" />
+    </header>
+
+    <nav id="collapsable-sidebar">
+      <a href="index.html">Home</a>
+      <a href="#">CS Club</a>
+      <a href="Academic.html">Academic</a>
+      <a href="#">Faculty</a>
+      <a href="#">Contributors</a>
+    </nav>
+
+    <!--  Per-page content goes here. -->
+    <main>
+      <h1>Academic Overview: Computer Science</h1>
+      <p>Placeholder</p>
+
+      <h1>Academic Pathway</h1>
+      <p>Enter information below and see your suggested cirriculum (CS related classes only):</p>
+      <label for="track">Select Track:</label>
+      <select id="track" onchange=displayPathway()>
+        <option value="">Select Track</option>
+        <option value="standard">Standard</option>
+        <option value="applied">Applied</option>
+      </select>
+
+      <br>
+
+      <label for="year">Select Year:</label>
+      <select id="year" onchange=displayPathway()>
+        <option value="">Select Year</option>
+        <option value="freshman-1">Freshman-fall</option>
+        <option value="freshman-2">Freshman-spring</option>
+        <option value="sophomore-1">sophomore-fall</option>
+        <option value="sophomore-2">sophomore-spring</option>
+      </select>
+
+      <div id="pathwayContent">
+        <p>Please select track and year</p>
+      </div>
+
+    </main>
+  </body>
+</html>
